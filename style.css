@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    background-color: #f3e5d8;
+    font-family: sans-serif;
+    color: hsl(240, 9%, 18%);
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+.main.container {
+  background-color: white;
+  max-width: 595px;
+  border-radius: 19px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.image img {
+  width: 100%;
+  border-radius: 19px;
+  margin-bottom: 16px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: serif;
+}
+h2 {
+  font-size: 1.5rem;
+  color: hsl(14, 45%, 36%);
+  margin: 1.5rem 0 1rem;
+  font-family: serif;
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+p {
+  color: hsl(24, 5%, 35%);
+  margin-bottom: 1.5rem;
+}
+.prep {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+.prep ul {
+  word-spacing: normal;
+  list-style: inside;
+  color: hsl(20, 9%, 27%);
+}
+.prep li {
+  margin-bottom: 0.5rem;
+}
+.ingred ul {
+  list-style: disc inside;
+  margin-left: 0.5rem;
+  color: hsl(24, 5%, 35%);
+}
+.ingred li {
+  margin-bottom: 0.5rem;
+  color: black;
+}
+.instructions ol {
+  list-style: decimal inside;
+  margin-left: 0.5rem;
+  color: hsl(0, 0%, 3%);
+}
+.instructions li {
+  margin-bottom: 0.75rem;
+}
+hr {
+  border-top: 1px solid hsl(30, 18%, 87%);
+  margin: 1.5rem 0;
+}
+.nutrition p {
+  margin-bottom: 1rem;
+  color: hsl(30, 4%, 10%);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
